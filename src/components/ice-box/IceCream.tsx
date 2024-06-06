@@ -22,7 +22,7 @@ export default function IceCream() {
     };
 
     return (
-        <div className="max-w-[1440px] mx-auto grid sm:grid-cols-1 md:grid-cols-2 gap-4 p-4">
+        <div className="max-w-[1440px] mx-auto grid  lg:grid-cols-2 gap-4 p-4">
             {cone.map((item, index) => (
                 <div className="w-full h-full py-5" key={index}>
                     <div className={`max-w-full md:max-w-[500px] flex flex-col md:flex-row items-center mt-5 backdrop-blur-[10px] 
